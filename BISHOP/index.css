@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=playfair+Display:wght@700&display=swap');
+/*colors*/{
+    --main-colr:#deab5f;
+    --primary-color:#312e2e;
+
+}
+/*utility styles*/
+.btn{
+    padding: 10px 30px;
+    background-color: black;
+    border:none ;
+    cursor: pointer;
+    color: #fff;
+    background-image: url(c3.jpeg);
+
+}
+.btn:hover{
+    color: blue;
+    
+}
+/*Resets*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #100e0f;
+
+}
+nav{
+    display: flex;justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+li a:hover{
+    border-bottom: 2px solid var(--main-colr);
+}
+/*NAV END*/
+/*Header styles*/
+.header{
+background: url(a1.jpeg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+font-family: 'Playfair Display',serif;
+font-weight: normal;
+
+/*Flexbox*/
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+color: #fff;
+position: relative;
+text-align: center;
+}
+.main-headings{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+
+}
+.primary-headings{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+
+/*.btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    transform: translateY(60px);
+}*/
+/*our story style*/
+#our-story{
+   /* height: 100vh;*/
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(c4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: 'Playfair Display',serif;
+    font-size: 3rem;
+    color: #fff;
+    transform: translateX(-100px);
+
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateX(-120px);
+
+}
+.section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+}
+/*Our story end*/
+
+#our{
+    /* height: 100vh;*/
+     margin-top: 15%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .img2{
+     width: 400px;
+     height: 400px;
+     background: url(b3.jpeg);
+     background-position: center;
+     background-size: cover;
+ }
+ .title-styles{
+     display: flex;
+     align-items: center;
+ }
+ .titles{
+     font-family: 'Playfair Display',serif;
+     font-size: 3rem;
+     color: #fff;
+     transform: translateX(-100px);
+ 
+ }
+ .lines{
+     width: 100px;
+     height: 2px;
+     background-color: #fff;
+     transform: translateX(-120px);
+ 
+ }
+ .section-contents p{
+     max-width: 500px;
+     color: #fff;
+     font-family: sans-serif;
+     line-height: 20px;
+     margin: 20px 0;
+ }
+
+
+
+/*
+#our{
+    /* height: 100vh;*/
+    margin-top: 10%;
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }/**/
+ 
+/*.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.content-section p{
+    max-width: 100px;
+}
+.img-2{
+    width: 400px;
+    height: 400px;
+}
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Playfair Display',serif;
+    
+}
+.content-section p{
+    max-width: 100px;
+    margin-top: 20px;
+    font-family:sans-serif ;
+    color: #fff;
+    
+}
+.kes{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateX(-20px);
+
+}
+.the{
+    color: white;
+}
+**/
+
+
+
+
+
+
+
+
+
+
+
+
+
